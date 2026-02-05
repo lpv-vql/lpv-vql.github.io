@@ -3,7 +3,6 @@
 }
 
 :root {
-  --font-family: "Yu Gothic", "游ゴシック体", "游ゴシック", sans-serif;
   --main-color: #383838;
   --accent-color: #3a93c9;
   --heading-color: #000;
@@ -16,7 +15,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: var(--font-family);
+  font-family: "Yu Gothic", "游ゴシック体", "游ゴシック", sans-serif;
   color: var(--main-color);
   font-weight: 500;
   line-height: 1.9;
