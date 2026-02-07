@@ -30,12 +30,17 @@ nav.toc {
 
 nav a {
   text-decoration: none;
-  color: var(--main-color);
+  color: var(--border-color);
   transition: 0.1s;
 }
 
 nav a:hover {
   color: var(--accent-color);
+}
+
+nav ul li {
+  list-style: none;
+  line-height: 2;
 }
 
 main {
@@ -77,14 +82,14 @@ main a:hover {
   background-size: 100% 100%;
 }
 
-ul li {
+main ul li {
   list-style: none;
   line-height: 1.7;
   text-indent: -2em;
   padding-left: 1em;
 }
 
-ul li::before {
+main ul li::before {
   content: '・';
 }
 
