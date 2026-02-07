@@ -35,12 +35,14 @@ nav.toc {
 
 nav a {
   text-decoration: none;
+  display: inline-block;
   color: var(--border-color);
-  transition: 0.1s;
+  transition: 0.1s ease;
 }
 
 nav a:hover {
   color: var(--accent-color);
+  transform: translateX(8px);
 }
 
 nav ul li {
