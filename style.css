@@ -66,7 +66,6 @@ h2 {
   text-decoration: none;
   border-bottom: var(--accent-border-width) solid #e3e3e3;
   position: relative;
-  display: inline-block;
 }
 
 h2::after {
@@ -76,8 +75,8 @@ h2::after {
   bottom: calc(var(--accent-border-width) * -1);
   width: 0;
   height: var(--accent-border-width);
-  background-color: #ff0000;
-  transition: width 0.3s ease;
+  background-color: #ffab19;
+  transition: width 0.4s ease;
 }
 
 h2:hover::after {
