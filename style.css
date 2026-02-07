@@ -29,6 +29,7 @@ nav.toc {
 }
 
 nav a {
+  text-decoration: none;
   color: var(--main-color);
   transition: 0.1s;
 }
