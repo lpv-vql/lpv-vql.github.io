@@ -40,7 +40,7 @@ nav a:hover {
 
 nav ul li {
   list-style: none;
-  line-height: 2;
+  line-height: 2.5;
 }
 
 main {
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-  margin-top: -120px;
+  margin-top: -180px;
   text-align: center;
 }
 
