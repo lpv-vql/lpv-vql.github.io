@@ -63,7 +63,25 @@ h1{
 }
 
 h2 {
+  text-decoration: none;
   border-bottom: var(--accent-border-width) solid #e3e3e3;
+  position: relative;
+  display: inline-block;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: calc(var(--accent-border-width) * -1);
+  width: 0;
+  height: var(--accent-border-width);
+  background-color: #ff0000;
+  transition: width 0.3s ease;
+}
+
+h2:hover::after {
+  width: 100%;
 }
 
 main a {
