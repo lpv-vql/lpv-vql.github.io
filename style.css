@@ -28,6 +28,15 @@ nav.toc {
   top: 50px;
 }
 
+nav a {
+  color: var(--main-color);
+  transition: 0.1s;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+}
+
 main {
   width: 50%;
   margin: 0 auto;
@@ -50,7 +59,7 @@ h2 {
   border-bottom: var(--accent-border-width) solid #e3e3e3;
 }
 
-a {
+main a {
   text-decoration: none;
   color: var(--main-color);
   background-color: var(--background-color);
@@ -61,7 +70,7 @@ a {
   transition: color 0.1s ease, background-image 0.1s ease, background-size 0.1s ease;
 }
 
-a:hover {
+main a:hover {
   color: var(--background-color);
   background-image: linear-gradient(var(--accent-color), var(--accent-color));
   background-size: 100% 100%;
