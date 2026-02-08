@@ -79,9 +79,9 @@ h2::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: calc(var(--accent-border-width) * -1);
+  bottom: calc(var(--accent-border-width) * -1.2);
   width: 0;
-  height: var(--accent-border-width);
+  height: calc(var(--accent-border-width) * 1.4);
   background-color: #ffab19;
   transition: width 0.5s ease;
 }
