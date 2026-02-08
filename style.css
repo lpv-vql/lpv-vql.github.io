@@ -121,7 +121,7 @@ main ul li::before {
 footer p {
   color: var(--border-color);
   font-size: 16px;
-　text-align: center;
+  text-align: center;
 }
 
 @media (max-width: 1100px) {
