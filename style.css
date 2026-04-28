@@ -118,6 +118,10 @@ main ul li::before {
   content: '・';
 }
 
+main ul {
+  width: max-content;
+}
+
 .field {
 display: flex;
 }
