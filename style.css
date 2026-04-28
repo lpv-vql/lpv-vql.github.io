@@ -119,11 +119,11 @@ main ul li::before {
 }
 
 main ul {
-  width: max-content;
+  width: fit-content;;
 }
 
 .SNS {
-  width: max-content;
+  width: fit-content;;
 }
 
 .field {
