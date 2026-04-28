@@ -118,6 +118,10 @@ main ul li::before {
   content: '・';
 }
 
+.field {
+display: flex;
+}
+
 footer p {
   color: var(--border-color);
   font-size: 16px;
