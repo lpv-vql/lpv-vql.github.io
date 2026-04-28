@@ -122,8 +122,12 @@ main ul {
   width: max-content;
 }
 
+.SNS {
+  width: max-content;
+}
+
 .field {
-display: flex;
+  display: flex;
 }
 
 footer p {
