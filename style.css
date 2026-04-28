@@ -122,10 +122,6 @@ main ul {
   width: fit-content;
 }
 
-.SNS {
-  width: fit-content;
-}
-
 .field {
   display: flex;
   flex-wrap: wrap;
